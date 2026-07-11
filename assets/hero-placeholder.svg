@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a8c8df"/>
+    <stop offset="1" stop-color="#e6e0d1"/>
+  </linearGradient>
+</defs>
+<rect width="1400" height="900" fill="url(#sky)"/>
+<path d="M0 520C180 450 310 470 450 520s300 60 470 0 310-35 480 25v355H0z" fill="#9fb0a1"/>
+<path d="M0 620c180-55 330-40 510 10s360 30 520-15 260-20 370 20v265H0z" fill="#765f52"/>
+<circle cx="950" cy="315" r="90" fill="#2d2b2b"/>
+<path d="M850 750c35-170 70-310 105-360 50 65 100 205 135 360z" fill="#252525"/>
+<text x="700" y="820" text-anchor="middle" font-family="Georgia" font-size="48" fill="#f4f1e9">REPLACE WITH YOUR TRAVEL PHOTO</text>
+</svg>
