@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taehyun Kim</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="site-header">
+
+<nav class="desktop-nav" aria-label="Desktop navigation">
+  <a href="#home" data-en="Home" data-zh="首页">Home</a>
+  <a href="#about" data-en="About" data-zh="关于我">About</a>
+  <a href="#publications" data-en="Publications⌄" data-zh="学术成果⌄">Publications⌄</a>
+  <a href="#projects" data-en="Projects" data-zh="项目">Projects</a>
+  <a href="#writing" data-en="Blog" data-zh="博客">Blog</a>
+  <a href="#tags" data-en="Tags" data-zh="标签">Tags</a>
+  <a href="#dashboard" data-en="Dashboard" data-zh="仪表板">Dashboard</a>
+  <a href="#contact" data-en="Contact" data-zh="联系">Contact</a>
+</nav>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+<a href="#home" class="profile-mini"><img src="assets/profile.svg" alt="Profile"><div><strong>Taehyun Kim</strong><small data-en="Bachelor of Computer Science" data-zh="计算机科学学士">Bachelor of Computer Science</small><span>University of Wollongong</span></div></a>
+<div class="header-actions"><button id="langToggle" class="lang-toggle">中文</button><button id="themeToggle" class="theme-toggle">●</button></div>
+</header>
+
+<aside class="drawer" id="drawer"><button class="drawer-close" id="drawerClose">×</button><nav>
+<a href="#home" data-en="Home" data-zh="首页">Home</a><a href="#about" data-en="About" data-zh="关于我">About</a>
+<a href="#publications" data-en="Publications" data-zh="学术成果">Publications</a>
+<div class="subnav"><a href="#publications" data-en="Papers" data-zh="论文">Papers</a><a href="#datasets" data-en="Datasets" data-zh="数据集">Datasets</a><a href="#patents" data-en="Patents" data-zh="专利">Patents</a></div>
+<a href="#projects" data-en="Projects" data-zh="项目">Projects</a><a href="#writing" data-en="Blog" data-zh="博客">Blog</a><a href="#tags" data-en="Tags" data-zh="标签">Tags</a><a href="#dashboard" data-en="Dashboard" data-zh="仪表板">Dashboard</a><a href="#contact" data-en="Contact" data-zh="联系">Contact</a>
+</nav></aside><div class="backdrop" id="backdrop"></div>
+
+<main id="home">
+<section class="hero section">
+
+<div class="desktop-identity">
+  <img src="assets/profile.svg" alt="Taehyun Kim profile photo">
+  <div>
+    <strong>Taehyun Kim</strong>
+    <p data-en="Bachelor of Computer Science, Cyber Security" data-zh="计算机科学学士 · 网络安全方向">
+      Bachelor of Computer Science, Cyber Security
+    </p>
+    <a href="https://www.uow.edu.au/" target="_blank" rel="noreferrer">University of Wollongong</a>
+  </div>
+</div>
+
+<h1 data-en="Welcome to My Corner of the Web!" data-zh="欢迎来到我的个人空间！">Welcome to My Corner of the Web!</h1>
+<img class="hero-image" src="assets/travel.svg" alt="Travel photo">
+<div class="intro">
+<p data-en="Hi, I'm Taehyun Kim, majoring in Computer Science with a focus on Cyber Security at the University of Wollongong. I am interested in network security, secure software development, and practical problem solving. I am constantly learning and building projects to strengthen my technical skills and apply them to real-world security challenges."
+data-zh="你好，我是金太贤，目前就读于伍伦贡大学计算机科学专业，主修网络安全。我对网络安全、安全软件开发以及实际问题解决感兴趣。我持续学习并开发项目，希望提升技术能力，并将所学应用于现实世界中的安全挑战。">Hi, I'm Taehyun Kim, majoring in <strong>Computer Science with a focus on Cyber Security</strong> at the <strong>University of Wollongong</strong>. I am interested in <strong>network security</strong>, <strong>secure software development</strong>, and practical problem solving. I am constantly learning and building projects to strengthen my technical skills and apply them to real-world security challenges.</p>
+<p><span data-en="Feel free to explore some of my coding endeavors on " data-zh="欢迎查看我在 ">Feel free to explore some of my coding endeavors on </span><a href="https://github.com/changmo031576" target="_blank">GitHub</a>.</p>
+<a class="outline-button" href="#contact" data-en="Get in Touch" data-zh="联系我">Get in Touch</a>
+</div></section>
+
+<section id="about" class="section"><h2 data-en="News" data-zh="最新动态">News</h2>
+<div class="news-item"><time>Jul 12, 2026</time><p data-en="Officially launched my personal portfolio website." data-zh="正式上线我的个人作品集网站。">Officially launched my personal portfolio website.</p></div>
+<div class="news-item"><time>Jul 2026</time><p data-en="Started preparing a series of cyber security and secure software projects." data-zh="开始筹备一系列网络安全与安全软件项目。">Started preparing a series of cyber security and secure software projects.</p></div>
+<div class="news-item"><time>2026</time><p data-en="Continued studying Computer Science at the University of Wollongong with a focus on Cyber Security." data-zh="继续在伍伦贡大学学习计算机科学，并专注于网络安全方向。">Continued studying Computer Science at the University of Wollongong with a focus on Cyber Security.</p></div>
+</section>
+
+<section id="publications" class="section"><h2 data-en="Selected Work" data-zh="精选成果">Selected Work</h2>
+<article class="paper-card"><span class="badge" data-en="IN DEVELOPMENT" data-zh="开发中">IN DEVELOPMENT</span><h3 data-en="Cyber Security Portfolio Projects" data-zh="网络安全作品集项目">Cyber Security Portfolio Projects</h3><p class="authors">Taehyun Kim</p><p class="venue" data-en="University and personal projects in secure software, networks, and cyber security" data-zh="围绕安全软件、计算机网络与网络安全的大学及个人项目">University and personal projects in secure software, networks, and cyber security</p></article>
+<a href="#projects" class="outline-button" data-en="View All Projects" data-zh="查看所有项目">View All Projects</a></section>
+
+<section id="writing" class="section"><h2 data-en="Writing" data-zh="文章">Writing</h2>
+<article class="post"><h3 data-en="Hello World! Welcome to my new website 🎉" data-zh="Hello World！欢迎来到我的新网站 🎉">Hello World! Welcome to my new website 🎉</h3><time>July 12, 2026</time><p data-en="Welcome to my new website. This is my first post to introduce the portfolio and document my learning journey." data-zh="欢迎来到我的新网站。这是我的第一篇文章，用于介绍这个作品集并记录我的学习旅程。">Welcome to my new website. This is my first post to introduce the portfolio and document my learning journey.</p></article>
+<article class="post"><h3 data-en="Why I Chose Cyber Security" data-zh="我为什么选择网络安全">Why I Chose Cyber Security</h3><time data-en="Coming Soon" data-zh="即将发布">Coming Soon</time><p data-en="A short reflection on my interests, studies, and long-term goals in cyber security." data-zh="关于我对网络安全的兴趣、学习经历和长期目标的一篇简短记录。">A short reflection on my interests, studies, and long-term goals in cyber security.</p></article>
+<article class="post"><h3 data-en="Building My First Security Project" data-zh="制作我的第一个安全项目">Building My First Security Project</h3><time data-en="Coming Soon" data-zh="即将发布">Coming Soon</time><p data-en="Notes about turning a security-related idea into a practical project." data-zh="记录我如何把一个与安全相关的想法转化为实际项目。">Notes about turning a security-related idea into a practical project.</p></article>
+<a href="#writing" class="outline-button" data-en="View All Posts" data-zh="查看所有文章">View All Posts</a></section>
+
+<section id="contact" class="section contact"><h2 data-en="Contact" data-zh="联系">Contact</h2><p><a href="mailto:tk610@uowmail.edu.au">tk610@uowmail.edu.au</a></p></section>
+</main>
+<footer><div class="footer-links"><a href="https://github.com/changmo031576" target="_blank">Github</a><a href="#">Scholar</a><a href="#">LinkedIn</a></div><p>© 2026 Taehyun Kim. All rights reserved.</p></footer>
+<script src="script.js"></script></body></html>
