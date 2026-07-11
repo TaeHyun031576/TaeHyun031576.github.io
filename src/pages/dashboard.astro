@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BilingualText from '../components/BilingualText.astro';
+
+const githubId = "TaeHyun031576";
+const chartColor = "005A8B";
+---
+
+<BaseLayout title="Dashboard" description="My Dashboard" showHeader={false}>
+    <h1 class="mb-12 font-serif text-2xl leading-tight italic sm:mb-16 sm:text-4xl"><BilingualText text="Dashboard / 动态" /></h1>
+    
+    <section class="mb-16">
+        <h2 class="mb-8 font-serif text-xl italic"><BilingualText text="GitHub Activity / GitHub 活动" /></h2>
+        <div class="flex justify-center sm:py-4">
+            <img 
+                src={`https://ghchart.rshah.org/${chartColor}/${githubId}`} 
+                alt={`${githubId}'s GitHub Contributions`} 
+                class="w-full max-w-5xl"
+                loading="lazy"
+            />
+        </div>
+    </section>
+
+</BaseLayout>

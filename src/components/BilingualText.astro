@@ -1,0 +1,8 @@
+---
+type Props = { text: string };
+const { text } = Astro.props;
+const [english, chinese] = text.split(' / ', 2);
+---
+
+<span class="lang-en">{english}</span>
+<span class="lang-zh">{chinese ?? english}</span>

@@ -1,0 +1,25 @@
+---
+// src/components/News.astro
+import newsList from '../data/news.json';
+import BilingualText from './BilingualText.astro';
+
+const latestNews = newsList.slice(0, 5);
+---
+
+<div class="mb-10 sm:mb-12">
+    <h2 class="mb-8 font-serif text-xl italic sm:mb-12 sm:text-2xl"><BilingualText text="News / 最新动态" /></h2>
+    
+    <ul class="flex flex-col gap-6 sm:gap-8">
+        {latestNews.map((news) => (
+            <li class="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:gap-6">
+                <span class="text-lg text-gray-500 dark:text-gray-400 min-w-[140px] shrink-0">
+                    {news.date}
+                </span>
+                <p 
+                class="text-xl text-slate-900 dark:text-sky-50 leading-relaxed [&_a]:underline [&_a]:underline-offset-4 [&_a]:decoration-sky-500 dark:[&_a]:decoration-sky-400 [&_a]:transition-colors hover:[&_a]:text-blue-900 dark:hover:[&_a]:text-sky-300" 
+                set:html={news.title} 
+                />
+            </li>
+        ))}
+    </ul>
+</div>

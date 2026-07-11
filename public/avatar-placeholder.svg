@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Taehyun Kim profile placeholder</title>
+  <desc id="desc">Abstract initials TK on a University of Wollongong-inspired navy background</desc>
+  <rect width="400" height="400" rx="200" fill="#002b49"/>
+  <circle cx="200" cy="200" r="154" fill="none" stroke="#75c5e8" stroke-width="8"/>
+  <text x="200" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="112" fill="#e7f5fb">TK</text>
+</svg>
