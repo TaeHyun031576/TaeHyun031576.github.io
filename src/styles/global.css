@@ -9,8 +9,8 @@
 
 :root {
     --text-main: #002b49;
-    --bg-main: #dceef7;
-    --bg-muted: #c6e2f0;
+    --bg-main: #edf6fa;
+    --bg-muted: #dcecf4;
     --border-main: #005a8b;
 }
 html.dark {
