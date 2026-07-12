@@ -7,7 +7,7 @@ tags: ["Portfolio", "Introduction"]
 ---
 
 <section class="lang-en">
-##IntroDuction
+<h2> IntroDuction </h2>
 <p>Welcome to my personal website. I'm TaeHyun Kim, and I'm currently majoring Bachelor of Coumputer Science(Cyber Security) at the University of Wollongong. Also I'm keep developing my chinese skills own my own as a hobby. Even my chinese skills have far way to go, since I got some interests in studying or working in China, I decided to present this website using both English and chinese.</p>
 <p>I will use this website to record my progress of learning, share projects, technical notes, and milestones etc. </p>
 
