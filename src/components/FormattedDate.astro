@@ -6,14 +6,11 @@ const { date } = Astro.props;
 const englishDate = date.toLocaleDateString('en-GB', {
     day: 'numeric',
     month: 'short',
-    year: 'numeric'
+    year: 'numeric',
+    timeZone: 'UTC'
 });
 
-const chineseDate = date.toLocaleDateString('zh-CN', {
-    year: 'numeric',
-    month: 'numeric',
-    day: 'numeric'
-});
+const chineseDate = `${date.getUTCFullYear()}年${date.getUTCMonth() + 1}月${date.getUTCDate()}日`;
 ---
 
 <time datetime={date.toISOString()}>
