@@ -2,6 +2,7 @@
 title: "My Chinese Learning Journey / 我的中文学习之旅"
 excerpt: "Why I began learning Mandarin Chinese and how I study independently. / 我开始学习普通话并坚持自学的原因与方法。"
 publishDate: '2026-07-12'
+updatedDate: '2026-08-01'
 isFeatured: true
 tags: ["Chinese", "Language Learning"]
 ---
