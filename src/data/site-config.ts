@@ -74,6 +74,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'Email',
             href: 'mailto:tk610@uowmail.edu.au'
+        },
+        {
+        text: 'Instagram',
+        href: 'https://www.instagram.com/xogus_4_5?igsh=MWg2ams0OXc2eTVpZg%3D%3D&utm_source=qr'
         }
     ],
     hero: {
