@@ -10,8 +10,8 @@ const siteConfig: SiteConfig = {
     subtitle: '<span class="lang-en">Bachelor of Computer Science (Cyber Security), <a href="https://www.uow.edu.au" target="_blank" rel="noopener noreferrer" class="text-blue-900 dark:text-sky-300 underline decoration-dashed underline-offset-4 hover:decoration-solid hover:decoration-2">University of Wollongong</a></span><span class="lang-zh" lang="zh-CN">计算机科学学士（网络安全），<a href="https://www.uow.edu.au" target="_blank" rel="noopener noreferrer" class="text-blue-900 dark:text-sky-300 underline decoration-dashed underline-offset-4 hover:decoration-solid hover:decoration-2">伍伦贡大学</a></span>',
     description: 'Bilingual portfolio of Taehyun Kim / 金太贤, a Computer Science (Cyber Security) student at the University of Wollongong.',
     image: {
-        src: '/hero-placeholder.svg',
-        alt: 'OG Image'
+        src: '/sydney.png',
+        alt: 'Sydney city view'
     },
     headerNavLinks: [
         {
