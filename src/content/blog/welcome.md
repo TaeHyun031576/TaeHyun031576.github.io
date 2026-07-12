@@ -7,16 +7,16 @@ tags: ["Portfolio", "Introduction"]
 ---
 
 <section class="lang-en">
-<h2> IntroDuction </h2>
+<h2> Introduction </h2>
 <p>Welcome to my personal website. I'm TaeHyun Kim, and I'm currently majoring Bachelor of Coumputer Science(Cyber Security) at the University of Wollongong. Also I'm keep developing my chinese skills own my own as a hobby. Even my chinese skills have far way to go, since I got some interests in studying or working in China, I decided to present this website using both English and chinese.</p>
 <p>I will use this website to record my progress of learning, share projects, technical notes, and milestones etc. </p>
 
 
-<h2>Buiding the site</h2>
+<h2>Building the site</h2>
 <p>Since this is my first time building a website like this, there is still a great deal for me to learn. I plan to continue improving it step by step as I gain more experience and deepen my understanding of modern web development.</p>
 <p>Analyzing the template code, removing unnecessary components, fixing errors, and customizing it to suit my own needs was unfamiliar at first. However, as someone who frequently contributes to and edits Wikipedia, I found the process surprisingly engaging and enjoyable. I look forward to continuing to refine both this website and my skills over time.</p>
 
-<h2>Contents Posted Here</h2>
+<h2>Contents posted here</h2>
 <p>
 This website documents my academic journey, personal projects, language learning, and international experiences. I plan to gradually add new content as I continue learning and exploring new opportunities.
 </p>
