@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Cyber security illustration placeholder</title>
-  <desc id="desc">Abstract network nodes and a shield in navy, sky blue, and teal</desc>
-  <rect width="1600" height="900" fill="#dceef7"/>
-  <g stroke="#75c5e8" stroke-width="3" opacity=".8"><path d="M130 210 420 130 650 310 930 170 1190 300 1470 160M120 660 390 510 690 690 930 490 1230 670 1480 540M420 130 390 510M650 310 690 690M930 170 930 490M1190 300 1230 670" fill="none"/></g>
-  <g fill="#007c91"><circle cx="130" cy="210" r="18"/><circle cx="420" cy="130" r="18"/><circle cx="650" cy="310" r="18"/><circle cx="930" cy="170" r="18"/><circle cx="1190" cy="300" r="18"/><circle cx="1470" cy="160" r="18"/><circle cx="120" cy="660" r="18"/><circle cx="390" cy="510" r="18"/><circle cx="690" cy="690" r="18"/><circle cx="930" cy="490" r="18"/><circle cx="1230" cy="670" r="18"/><circle cx="1480" cy="540" r="18"/></g>
-  <path d="M800 260 985 330v165c0 126-80 225-185 275-105-50-185-149-185-275V330z" fill="#002b49" stroke="#75c5e8" stroke-width="12"/>
-  <path d="m720 502 55 55 111-127" fill="none" stroke="#e7f5fb" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
