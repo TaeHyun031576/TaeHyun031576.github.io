@@ -33,8 +33,6 @@ This website documents my academic journey, personal projects, language learning
 
 
 <h2>In closing</h2>
-<p><h2>Final Thoughts</h2>
-
 <p>
 Thank you for taking the time to visit my website. I am still learning and exploring, so this site will continue to grow and change over time. I look forward to sharing more of my studies, projects, language-learning journey, and international experiences here.
 </p>
